@@ -84,7 +84,7 @@ export default function Home() {
         <section aria-labelledby="files-title" className="py-16 md:py-24">
           <div className={wrap}>
             <SectionHead eyebrow="Files" title="Built for the files you already have" id="files-title">
-              Simulator outputs and recorder files open as they are. Nothing to convert, nothing to upload.
+              Simulator outputs and recorder files open as they are, CSV files with decimal commas too. Nothing to convert, nothing to upload.
             </SectionHead>
             <div className="grid gap-5 lg:grid-cols-[7fr_5fr]">
               <Reveal className={`${panel} p-6 md:p-8`}>
