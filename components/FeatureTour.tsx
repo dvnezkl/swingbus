@@ -18,7 +18,7 @@ const SCREENS: { key: string; tab: string; title: string; text: string; shot: Sh
     key: "metrics",
     tab: "Markers and metrics",
     title: "Rise, settling and overshoot, measured",
-    text: "Metrics… reads a step response and places what it finds as named markers: the fault, the 1000a0% and 9000a0% points, the settled point. Each signal's value shows at every marker, and Measure lists them for a copy.",
+    text: "Metrics… reads a step response and places what it finds as named markers: the fault, the 10 % and 90 % points, the settled point. Each signal's value shows at every marker, and Measure lists them for a copy.",
     shot: { name: "app-markers", width: 1400, height: 860, alt: "An LVRT voltage plot with markers named Fault, Rise 10 %, Rise 90 % and Settled, each signal's value beside the curves, and the Measure tab listing the markers with the rise and settling times" },
   },
   {
