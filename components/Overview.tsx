@@ -9,10 +9,11 @@ const TOOLS = [
     title: "Compare the simulation with the field",
     points: [
       "Overlay PSCAD, PSS®E, COMTRADE, MATLAB and CSV runs on the same axes",
-      "Zoom with the wheel, a drag or a box; a crosshair and two cursors read every signal, with the difference",
-      "Turn the error between two signals into a signal of its own",
-      "Name each signal, and set the ticks and the labels of each axis",
-      "Min, max and mean per signal, and one tab for each test case",
+      "Zoom with the wheel, a drag or a box; a crosshair, two cursors and named markers read every signal",
+      "Rise time, settling time and overshoot of a step, placed on the plot as markers",
+      "Harmonics and THD of one signal, Bode and Nyquist plots from two",
+      "Turn the error between two signals, its RMS or its derivative into a signal of its own",
+      "Report pages as a PDF, and one tab for each test case",
     ],
     href: "#plotter",
     more: "Try the Plotter",
@@ -27,6 +28,7 @@ const TOOLS = [
       "1PG, 2PG and LL faults by symmetrical components",
       "The SCR the machine sees at its terminal, through the transformer",
       "The voltage along the circuit, against Zf and over the fault",
+      "Copy any result, or export every page to Excel",
     ],
     href: "#calculator",
     more: "Try the Calculator",
@@ -35,7 +37,7 @@ const TOOLS = [
 
 const STEPS = [
   { title: "Open what you have", text: "Simulator outputs and recorder files, as they come. Nothing to convert first." },
-  { title: "Compare and measure", text: "Overlay the simulation on the measurement, zoom to the event and read the cursors." },
+  { title: "Compare and measure", text: "Overlay the simulation on the measurement, zoom to the event, and read the cursors, the markers and the metrics." },
   { title: "Work out the grid", text: "Get Zs and Zf for the test, and see the voltage along the circuit." },
 ];
 
