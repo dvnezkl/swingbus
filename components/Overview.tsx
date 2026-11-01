@@ -10,7 +10,7 @@ const TOOLS = [
     points: [
       "Overlay PSCAD, PSS®E, COMTRADE, MATLAB and CSV runs on the same axes",
       "Zoom with the wheel, a drag or a box; a crosshair, two cursors and named markers read every signal",
-      "Rise time, settling time and overshoot of a step, placed on the plot as markers",
+      "Rise, peak and settling time, overshoot and damping ratio of a step, placed on the plot as markers",
       "Harmonics and THD of one signal, Bode and Nyquist plots from two",
       "Turn the error between two signals, its RMS or its derivative into a signal of its own",
       "Report pages as a PDF, and one tab for each test case",
