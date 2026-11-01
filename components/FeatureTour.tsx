@@ -22,6 +22,13 @@ const SCREENS: { key: string; tab: string; title: string; text: string; shot: Sh
     shot: { name: "app-markers", width: 1400, height: 860, alt: "An LVRT voltage plot with markers named Fault, Rise 10 %, Rise 90 % and Settled, each signal's value beside the curves, and the Measure tab listing the markers with the rise and settling times" },
   },
   {
+    key: "damping",
+    tab: "Peak and damping",
+    title: "How fast it rings down",
+    text: "For a response that rings, Metrics… reads the peak time, the damping ratio ζ from the peaks and the oscillation frequency. Pick a 2, 5 or 10 % settling band, hide the metrics you don't need, and the rules stay as you leave them.",
+    shot: { name: "app-metrics", width: 1400, height: 860, alt: "The Metrics dialog on a reactive power setpoint step: a 2 % settling band, peak time 0.424 s, overshoot 44.6 %, damping ratio 0.249 from 6 peaks and an oscillation of 1.157 Hz" },
+  },
+  {
     key: "spectrum",
     tab: "Spectrum",
     title: "Harmonics and THD of one signal",
