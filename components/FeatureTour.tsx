@@ -15,6 +15,13 @@ const SCREENS: { key: string; tab: string; title: string; text: string; shot: Sh
     shot: { name: "app-layout", width: 1400, height: 860, alt: "The Grid Plotter with three LVRT test cases in tabs: voltage, active and reactive power of a simulation overlaid on a measurement, with cursors A and B and their statistics" },
   },
   {
+    key: "axes",
+    tab: "Two Y axes",
+    title: "Power on the left, voltage on the right",
+    text: "In Plot settings each signal picks Left or Right. The first signal moved right gives the plot a second Y axis with its own name, unit, ticks and zoom: Ctrl + wheel over its labels, Fit and Reset per axis, and the crosshair reads both.",
+    shot: { name: "app-second-axis", width: 1400, height: 860, alt: "An LVRT simulation on one plot: the active power and the reactive current in pu on the left Y axis, and the PCC voltage in pu on a right Y axis of its own, drawn in the voltage's blue" },
+  },
+  {
     key: "metrics",
     tab: "Markers and metrics",
     title: "Rise, settling and overshoot, measured",
@@ -62,6 +69,13 @@ const SCREENS: { key: string; tab: string; title: string; text: string; shot: Sh
     title: "Straight from the simulator's output",
     text: "A PSCAD HVDC case opened from its output files: AC voltages, DC volts and DC currents of the rectifier and the inverter.",
     shot: { name: "app-pscad", width: 1400, height: 860, alt: "A PSCAD HVDC case opened from its output files: AC voltages, DC volts and DC currents of the rectifier and the inverter" },
+  },
+  {
+    key: "live",
+    tab: "Live files",
+    title: "Rerun the simulation, the plot follows",
+    text: "The Windows app watches the files it has open. When a new run rewrites one, a notice offers Reload, which keeps every signal, name, zoom and marker, or Reload automatically, which stops asking. The browser version can't watch files.",
+    shot: { name: "app-live-files", width: 1400, height: 860, alt: "The Windows app after a simulation rewrote lvrt_run.csv: a notice under the tab bar says the file changed on disk, with Reload and Reload automatically, above the plot of its voltage, power and reactive current" },
   },
   {
     key: "fault",
