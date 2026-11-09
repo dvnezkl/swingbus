@@ -18,7 +18,7 @@ const SCREENS: { key: string; tab: string; title: string; text: string; shot: Sh
     key: "axes",
     tab: "Two Y axes",
     title: "Power on the left, voltage on the right",
-    text: "In Plot settings each signal picks Left or Right. The first signal moved right gives the plot a second Y axis with its own name, unit, ticks and zoom: Ctrl + wheel over its labels, Fit and Reset per axis, and the crosshair reads both.",
+    text: "In Plot settings each signal picks Left or Right. The first signal moved right gives the plot a second Y axis with its own name, unit, ticks and zoom: Ctrl + wheel over its labels, Fit and Reset per axis, and the crosshair reads both. The axis button after a ticked signal in the Signals pane does the same with one press.",
     shot: { name: "app-second-axis", width: 1400, height: 860, alt: "An LVRT simulation on one plot: the active power and the reactive current in pu on the left Y axis, and the PCC voltage in pu on a right Y axis of its own, drawn in the voltage's blue" },
   },
   {
@@ -69,6 +69,13 @@ const SCREENS: { key: string; tab: string; title: string; text: string; shot: Sh
     title: "Straight from the simulator's output",
     text: "A PSCAD HVDC case opened from its output files: AC voltages, DC volts and DC currents of the rectifier and the inverter.",
     shot: { name: "app-pscad", width: 1400, height: 860, alt: "A PSCAD HVDC case opened from its output files: AC voltages, DC volts and DC currents of the rectifier and the inverter" },
+  },
+  {
+    key: "states",
+    tab: "PSCAD states",
+    title: "The fault's own state, next to what it did",
+    text: "A .psout holds more than its output channels: the values behind the symbols on the canvas, meter readouts and the state of every breaker and fault, written only when they change. Swingbus holds each onto the time axis, so a fault or a breaker draws as a step beside the voltage it switched, and the Signals pane says how many values it was made from.",
+    shot: { name: "app-psout-states", width: 1400, height: 860, alt: "A made-up PSCAD LVRT case: the PCC voltage and the active power in pu on the left Y axis, and the fault symbol's state FLT_PCC: AG1, held from its three values, drawn as a step on a right Y axis; the Signals pane lists it with 3 values and its axis button pressed" },
   },
   {
     key: "live",
