@@ -8,7 +8,7 @@ const TOOLS = [
     tag: "Grid Plotter",
     title: "Compare the simulation with the field",
     points: [
-      "Overlay PSCAD, PSS®E, COMTRADE, MATLAB and CSV runs on the same axes, or on a second Y axis at the press of a button",
+      "Overlay PSCAD, PSS®E, COMTRADE, MATLAB and CSV runs on the same axes, or on a second Y axis at the press of a button, and see how far apart they are in numbers",
       "Zoom with the wheel, a drag or a box; a crosshair, two cursors and named markers read every signal",
       "Rise, peak and settling time, overshoot and damping ratio of a step, placed on the plot as markers",
       "Harmonics and THD of one signal, Bode and Nyquist plots from two",

@@ -15,6 +15,13 @@ const SCREENS: { key: string; tab: string; title: string; text: string; shot: Sh
     shot: { name: "app-layout", width: 1400, height: 860, alt: "The Grid Plotter with three LVRT test cases in tabs: voltage, active and reactive power of a simulation overlaid on a measurement, with cursors A and B and their statistics" },
   },
   {
+    key: "benchmark",
+    tab: "Benchmark",
+    title: "How far apart two runs are, in numbers",
+    text: "Pick one curve as the reference and Swingbus compares every other curve in the plot with it: RMSE, mean absolute error, mean error (the bias), the largest error and when it happens, MSE and SSE. Both runs are read on one even time grid, so a PSCAD run every 50 µs and a PSS®E run every half cycle compare fairly. The whole run, the part you zoom to, or between two cursors; copy the table into your report or plot the error.",
+    shot: { name: "app-benchmark", width: 1400, height: 860, alt: "A 0.2 pu LVRT simulation drawn over its measurement in two plots, voltage and active power, with the Benchmark section of the Measure tab listing RMSE, MAE, mean error, the largest error and its instant, MSE and SSE for each plot, the measurement as the reference" },
+  },
+  {
     key: "axes",
     tab: "Two Y axes",
     title: "Power on the left, voltage on the right",
